@@ -12572,9 +12572,14 @@ class PommePlugin(BasePlugin):
     def _pocket_mode_remote_urls(self, want_pocket):
         try:
             base = "https://coreupdates.meyankut.workers.dev"
-            normal = [("{0}/pomme.plugin".format(base)),]
+            github_raw = "https://raw.githubusercontent.com/smdcontent/mode/refs/heads/main/plugin/pomme.plugin"
+            normal = [
+                "{0}/pomme.plugin".format(base),
+                github_raw,
+            ]
             pocket = [
                 "{0}/pomme.plugin".format(base),
+                github_raw,
                 "{0}/pomme_pocket.plugin".format(base),
                 "{0}/pomme_pocket_mode.plugin".format(base),
                 "{0}/pomme-pocket.plugin".format(base),
