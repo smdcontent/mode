@@ -1,0 +1,2 @@
+# mode
+a quick repo
