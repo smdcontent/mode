@@ -63,9 +63,9 @@ from ui.bulletin import BulletinHelper
 
 __id__ = "pomme"
 __name__ = "Pomme"
-__description__ = "Offline mode is enabled.\n\nIf you're connected to the internet and Pomme doesn’t work for any reason, switch back to online mode by turning off Pocket Mode.\n\n• Powered by [Dotted Plugins](https://t.me/exteraDevPlugins)"
+__description__ = "Find music from chat search and play it instantly in the native player.\n\nTurn the app into a complete music experience. Create playlists or import them from YouTube, with partial support for Spotify, all ready to play.\n\n• Powered by [Dotted Plugins](https://t.me/exteraDevPlugins)"
 __author__ = "@AGeekApple"
-__version__ = "1.0.0-Pocket"
+__version__ = "1.0.0"
 __min_version__ = "12.5.1"
 __icon__ = "ApplePlugins/31"
 
